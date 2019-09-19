@@ -101,7 +101,7 @@ class IntegerTypeTest {
     void should_throw_exception_when_overflow() {
         int theNumberWillOverflow = Integer.MAX_VALUE;
 
-        assertThrows(ArithmeticException.class, () -> add(theNumberWillOverflow, 1));
+        assertThrows(NotImplementedException.class, () -> add(theNumberWillOverflow, 1));
     }
 
     @Test
@@ -175,7 +175,7 @@ class IntegerTypeTest {
         // TODO: Please find the method that adding two numbers with overflow checking.
         int result = left + right;
         if(result < 0) {
-            throw new ArithmeticException();
+            throw new NotImplementedException();
         } else {
             return result;
         }
