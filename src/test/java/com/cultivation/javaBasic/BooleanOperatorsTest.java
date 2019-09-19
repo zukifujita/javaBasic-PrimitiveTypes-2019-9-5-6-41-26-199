@@ -41,7 +41,7 @@ class BooleanOperatorsTest {
 
         // TODO: please write down the result directly to pass the test.
         // <--start
-        final int expected = value & mask;
+        final int expected = 305920;
         // --end-->
 
         assertEquals(expected, value & mask);
@@ -54,7 +54,7 @@ class BooleanOperatorsTest {
 
         // TODO: please write down the result directly to pass the test.
         // <--start
-        final int expected = value + mask;
+        final int expected = 305441741;
         // --end-->
 
         assertEquals(expected, value | mask);
@@ -66,7 +66,7 @@ class BooleanOperatorsTest {
 
         // TODO: please write down the result directly to pass the test.
         // <--start
-        final int expected = ~value;
+        final int expected = -65536;
         // --end-->
 
         assertEquals(expected, ~value);
