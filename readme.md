@@ -26,6 +26,7 @@ FloatingTypeTest - To know how to modify some of the method to handle exceptions
 IntegerTypeTest - To know what are the MAX and MIN values of each number data types.
 
 1. Why the test failed at first?
+
 BooleanOperator - the test failed at first because the two objects are not equal, which should always return true.
 
 CharTypeTest - The variables does not have values, and each value should be an escaped character.
