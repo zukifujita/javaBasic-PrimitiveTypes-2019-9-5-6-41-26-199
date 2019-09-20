@@ -16,21 +16,35 @@ Each repository contains a gradle java project with a number of unit tests. The 
 The 4 questions are:
 
 1. What is the knowledge point of the test? Where is the offical document to the knowledge point?
+
 BooleanOperator - To pass each test cases, where the two object should be equal.
+
 CharTypeTest - To know what are the escaped characters to place in the variable.
+
 FloatingTypeTest - To know how to modify some of the method to handle exceptions.
+
 IntegerTypeTest - To know what are the MAX and MIN values of each number data types.
+
 1. Why the test failed at first?
 BooleanOperator - the test failed at first because the two objects are not equal, which should always return true.
+
 CharTypeTest - The variables does not have values, and each value should be an escaped character.
+
 FloatingTypeTest - Most of the test cases have final float value, and return in a different number data type. There are also some methods that only throws exception.
+
 IntegerTypeTest - The actual variables are 0, which should be the MAX and MIN of each number data types.
 1. Why you corrected the test that way?
+
 BooleanOperator - To pass all the tests, two objects should always be equal. Therefore, the expected and actual values should be equal.
+
 CharTypeTest - Since all the expected values should be an EscapedChars, the actual values should be also an escaped characters. Therefore, I searched what are the escaped characters, depending on what the variables are.
+
 FloatingTypeTest - Some test cases have float given variable, and should be parsed to integer, to pass the test case. There are also some methods that should be modified to handle the exception occuring in some of the test cases.
+
 IntegerTypeTest - Most actual values in test cases are the MAX and MIN values of each number data types. And other cases are using methods that should handle exceptions.
 1. Do you have further questions on this knowledge point?
+
+None.
 
 ## Example
 
